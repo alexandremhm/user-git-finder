@@ -1,0 +1,103 @@
+* {
+  background-color: #A8C0CE;
+  font-family: 'Happy Monkey', cursive;
+}
+
+.big-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#user-input::placeholder {
+  color: white;
+}
+
+#user-input {
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  border-width: 1px;
+  border-style: none;
+  font-weight: 900;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,109,1) 35%, rgba(0,212,255,1) 100%);
+  color: white;
+  width: 300px;
+}
+
+#btn-search{
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+  background: white;
+  color: black;
+  font-weight: 600;
+
+}
+
+#title-h1 {
+  color:#121317;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+#cat-span {
+text-decoration: underline 10px blue;
+
+};
+
+#header-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.user-cart {
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,109,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.user-cart img {
+  width: 150px;
+  image-orientation:center;
+  border-radius: 8px;
+  
+}
+
+.user-cart p {
+  background: white;
+  color: black;  
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.links {
+  text-decoration: none;
+  background: white;
+}
+
+.links:hover{
+  transform: scale(1.2);
+  transition: 0.8s;
+  border-radius: 8px;
+}
